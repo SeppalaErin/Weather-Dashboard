@@ -55,3 +55,50 @@ main {
   flex-direction: column;
   justify-content: space-evenly;
 }
+
+.result-p {
+  font-size: 1.5rem;
+  padding-top: 1.2rem;
+}
+
+.result-p span {
+  padding: 1rem;
+  color: #f1faee;
+  border-radius: 0.5rem;
+}
+
+.uv-low {
+  background-color: green;
+}
+
+.uv-med {
+  color: #1d3557 !important;
+  background-color: yellow;
+}
+
+.uv-high {
+  background-color: red;
+}
+
+.uv-danger {
+  background-color: rgb(160, 0, 160);
+}
+
+#five-day-forecast {
+  padding: 2rem 4rem;
+}
+
+.card-title {
+  font-size: 1.5rem;
+}
+
+.card {
+  margin-top: 1rem;
+  padding: 1rem 0.5rem;
+  background-color: #1d3557;
+  color: #ffffff;
+}
+
+.hide {
+  visibility: hidden;
+}
